@@ -1,16 +1,16 @@
-import React, { Component } from "react";
-import LeftSite from "./LeftSite";
-import RightSite from "./RightSite";
+import React from "react";
+import Billing_details from "./Billing_details";
+import Product from "./Product";
 
-export default class CheckOut extends Component {
-  render() {
-    return (
-      <div>
-        <div className=" mt-[50px] flex justify-between p-14">
-          <LeftSite />
-          <RightSite />
-        </div>
+const CheckOut = () => {
+  return (
+    <div>
+      <div className=" mt-[50px] flex justify-between p-14">
+        <Billing_details />
+        <Product />
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+export default CheckOut;
