@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import React from "react";
 import Sofa from "../../assets/icons/Sofa.svg";
 import Rubish from "../../assets/icons/Rubish.svg";

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { Component } from "react";
 import ShopCard from "../component/shop/ShopCard";
 import "../component/shop/ShopCard.css";
